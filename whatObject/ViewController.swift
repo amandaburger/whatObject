@@ -7,13 +7,32 @@
 //
 
 import UIKit
+import CoreML
+import Vision
+import ARKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,AVCaptureVideoDataOutputSampleBufferDelegate {
 
+    @IBOutlet weak var objectLabel: UILabel!
+    @IBOutlet weak var accessoryLabel: UILabel!
+    
+    @IBOutlet weak var botView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+       
+        
+        
+        
+        
     }
+    override var prefersStatusBarHidden: Bool{
+        return false
+    }
+    
+    
 
 
 }

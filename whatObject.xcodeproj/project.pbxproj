@@ -13,6 +13,7 @@
 		9E530194247B7F1B008912AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E530192247B7F1B008912AE /* Main.storyboard */; };
 		9E530196247B7F1C008912AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E530195247B7F1C008912AE /* Assets.xcassets */; };
 		9E530199247B7F1C008912AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E530197247B7F1C008912AE /* LaunchScreen.storyboard */; };
+		9E5301A1247B8058008912AE /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9E5301A0247B8058008912AE /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9E530195247B7F1C008912AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E530198247B7F1C008912AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E53019A247B7F1C008912AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E5301A0247B8058008912AE /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		9E53018B247B7F1B008912AE /* whatObject */ = {
 			isa = PBXGroup;
 			children = (
+				9E5301A0247B8058008912AE /* Resnet50.mlmodel */,
 				9E53018C247B7F1B008912AE /* AppDelegate.swift */,
 				9E53018E247B7F1B008912AE /* SceneDelegate.swift */,
 				9E530190247B7F1B008912AE /* ViewController.swift */,
@@ -140,6 +143,7 @@
 			files = (
 				9E530191247B7F1B008912AE /* ViewController.swift in Sources */,
 				9E53018D247B7F1B008912AE /* AppDelegate.swift in Sources */,
+				9E5301A1247B8058008912AE /* Resnet50.mlmodel in Sources */,
 				9E53018F247B7F1B008912AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
